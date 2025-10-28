@@ -108,7 +108,7 @@ class _ChuckCallsListScreenState extends State<ChuckCallsListScreen> {
   }
 
   Widget _buildTitleWidget() {
-    return const Text("Chuck Plus");
+    return const Text("Chuck");
   }
 
   Widget _buildSearchField() {
@@ -149,7 +149,7 @@ class _ChuckCallsListScreenState extends State<ChuckCallsListScreen> {
           children: [
             Icon(Icons.error_outline, color: ChuckConstants.orange),
             const SizedBox(height: 6),
-            const Text("There are no calls to show - test", style: TextStyle(fontSize: 18)),
+            const Text("There are no calls to show", style: TextStyle(fontSize: 18)),
             const SizedBox(height: 12),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
