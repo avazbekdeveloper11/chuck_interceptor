@@ -108,7 +108,7 @@ class _ChuckCallsListScreenState extends State<ChuckCallsListScreen> {
   }
 
   Widget _buildTitleWidget() {
-    return const Text("Chuck");
+    return const Text("Avazbek");
   }
 
   Widget _buildSearchField() {
